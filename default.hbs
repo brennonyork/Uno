@@ -28,10 +28,10 @@
 
     {{! Styles and Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-    
+
     {{! Syntax highlighting through HighlightJS }}
-    <link rel="stylesheet" href="/assets/styles/default.css">
-    <script src="/assets/js/highlight.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset "highlight/vs.css"}}" /> {{! Change this for different themes }}
+    <script type="text/javascript" src="{{asset "js/highlight.pack.js"}}"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     {{! Ghost Magic }}
